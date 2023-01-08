@@ -26,6 +26,21 @@ html {
   background: #555;
 }
 
+/* Removing Github calender's contribution streak column */
+div.contrib-column{
+  display: none;
+  height: -20%;
+}
+
+.calender{
+  height: 5%;
+}
+
+/* 
+.contrib-column-first{
+  display: none;
+} */
+
 /* all similar content styling codes */
 section {
   padding: 100px 0;
@@ -737,9 +752,15 @@ footer span a:hover {
     height: 350px;
     width: 350px;
   }
+  div.contrib-column{
+    display: none;
+  }
 }
 
 @media (max-width: 991px) {
+  div.contrib-column{
+    display: none;
+  }
   .max-width {
     padding: 0 50px;
   }
@@ -753,6 +774,9 @@ footer span a:hover {
 
 }
 @media (max-width: 947px) {
+  div.contrib-column{
+    display: none;
+  }
   .menu-btn {
     display: block;
     z-index: 999;
@@ -841,6 +865,9 @@ footer span a:hover {
 }
 
 @media (max-width: 690px) {
+  div.contrib-column{
+    display: none;
+  }
   .max-width {
     padding: 0 23px;
   }
@@ -859,6 +886,9 @@ footer span a:hover {
 }
 
 @media (max-width: 500px) {
+  div.contrib-column{
+    display: none;
+  }
   .home .home-content .text-2 {
     font-size: 50px;
   }
@@ -898,6 +928,7 @@ footer span a:hover {
   font-size: 25px;
   margin-right: 10px;
 }
+
 
 #githubCal{
   padding-left: 2rem;

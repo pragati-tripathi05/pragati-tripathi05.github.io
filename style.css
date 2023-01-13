@@ -749,7 +749,7 @@ footer span a:hover {
 /* responsive media query start */
 @media (max-width: 1104px) {
   #gitstat{
-    margin-top: -15%;
+    margin-top: -12%;
     /* style="margin-top: -5%;" */
   }
   .about .about-content .left img {
@@ -763,7 +763,7 @@ footer span a:hover {
 
 @media (max-width: 991px) {
   #gitstat{
-    margin-top: -15%;
+    margin-top: -12%;
     /* style="margin-top: -5%;" */
   }
   div.contrib-column{
@@ -783,7 +783,7 @@ footer span a:hover {
 }
 @media (max-width: 947px) {
   #gitstat{
-    margin-top: -15%;
+    margin-top: -12%;
     /* style="margin-top: -5%;" */
   }
   div.contrib-column{
@@ -878,7 +878,7 @@ footer span a:hover {
 
 @media (max-width: 690px) {
   #gitstat{
-    margin-top: -15%;
+    margin-top: -12%;
     /* style="margin-top: -5%;" */
   }
   div.contrib-column{
@@ -903,7 +903,7 @@ footer span a:hover {
 
 @media (max-width: 500px) {
   #gitstat{
-    margin-top: -15%;
+    margin-top: -12%;
     /* style="margin-top: -5%;" */
   }
   div.contrib-column{
